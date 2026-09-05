@@ -2,7 +2,7 @@ import { Download, Github, Linkedin, Mail } from 'lucide-react';
 import { usePreferences } from '../hooks/usePreferences.jsx';
 import { useSiteSettings } from '../hooks/useSiteSettings.js';
 
-const fallbackCv = '/cv/muhammad-reza-pahlevi-harahap-cv.pdf';
+const fallbackCv = '/cv/muhammad-reza-pahlevi-harahap-cv.html?v=20260905';
 
 export default function Hero() {
   const { language, t } = usePreferences();
