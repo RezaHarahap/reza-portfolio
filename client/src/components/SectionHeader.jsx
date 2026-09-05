@@ -1,0 +1,1 @@
+export default function SectionHeader({index,title,description}){return <div className="section-head"><span className="section-index">{index}</span><h2>{title}</h2>{description&&<p>{description}</p>}</div>}

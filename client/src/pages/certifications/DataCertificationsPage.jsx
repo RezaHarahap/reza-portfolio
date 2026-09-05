@@ -1,0 +1,1 @@
+import CategoryCertificationsPage from './CategoryCertificationsPage.jsx'; export default function DataCertificationsPage(){return <CategoryCertificationsPage category="data_science" title="Data Science & Analytics"/>}

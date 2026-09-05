@@ -1,0 +1,11 @@
+{
+  "name": "reza-portfolio-frontend-only",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "preview": "npm --prefix client run preview"
+  }
+}

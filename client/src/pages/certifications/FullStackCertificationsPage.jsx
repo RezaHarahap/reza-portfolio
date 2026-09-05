@@ -1,0 +1,1 @@
+import CategoryCertificationsPage from './CategoryCertificationsPage.jsx'; export default function FullStackCertificationsPage(){return <CategoryCertificationsPage category="full_stack" title="Full-Stack Development"/>}

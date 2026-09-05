@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>/</loc></url>
+  <url><loc>/projects/ai-machine-learning</loc></url>
+  <url><loc>/projects/data-science-analytics</loc></url>
+  <url><loc>/projects/full-stack</loc></url>
+  <url><loc>/certifications/ai-machine-learning</loc></url>
+  <url><loc>/certifications/data-science-analytics</loc></url>
+  <url><loc>/certifications/full-stack</loc></url>
+  <url><loc>/certifications/professional</loc></url>
+  <url><loc>/certifications/all</loc></url>
+</urlset>

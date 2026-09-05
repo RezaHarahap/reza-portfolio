@@ -1,0 +1,1 @@
+import CategoryCertificationsPage from './CategoryCertificationsPage.jsx'; export default function AICertificationsPage(){return <CategoryCertificationsPage category="ai_ml" title="AI & Machine Learning"/>}

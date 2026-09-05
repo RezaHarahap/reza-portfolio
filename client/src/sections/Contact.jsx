@@ -1,0 +1,5 @@
+import { Github, Linkedin, Mail, MapPin } from 'lucide-react';
+import SectionHeader from '../components/SectionHeader.jsx';
+import { usePreferences } from '../hooks/usePreferences.jsx';
+import { useSiteSettings } from '../hooks/useSiteSettings.js';
+export default function Contact(){const {language,t}=usePreferences();const settings=useSiteSettings();const id=language==='id';return <section id="contact" className="section contact"><SectionHeader index="09 /" title={t.sections.contact} description={id?'Saya terbuka untuk peluang kerja, kolaborasi, maupun diskusi terkait AI & Machine Learning, Data Science & Analytics, dan Full-Stack Development.':'I am open to job opportunities, collaboration, and discussions related to AI & Machine Learning, Data Science & Analytics, and Full-Stack Development.'}/><div className="contact-links"><a href={`mailto:${settings.email}`}><Mail/>{settings.email}</a><a href={settings.linkedin_url} target="_blank" rel="noreferrer"><Linkedin/>LinkedIn</a><a href={settings.github_url} target="_blank" rel="noreferrer"><Github/>GitHub</a><span><MapPin/>Depok, Jawa Barat, Indonesia</span></div></section>}
