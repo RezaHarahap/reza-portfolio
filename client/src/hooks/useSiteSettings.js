@@ -3,7 +3,7 @@ const settings = {
   email: 'rezaharahap180404@gmail.com',
   linkedin_url: 'https://www.linkedin.com/in/reza-harahap/',
   github_url: 'https://github.com/RezaHarahap',
-  cv_url: '/cv/muhammad-reza-pahlevi-harahap-cv.html',
+  cv_url: '/cv/muhammad-reza-pahlevi-harahap-cv.html?v=20260905',
   default_language: 'id',
   default_theme: 'light',
 };
