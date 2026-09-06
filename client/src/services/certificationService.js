@@ -4,13 +4,14 @@ import { aiExtraCertifications2 } from '../data/certifications-ai-extra-2.js';
 import { dataExtraCertifications2 } from '../data/certifications-data-extra-2.js';
 import { dataExtraCertifications3 } from '../data/certifications-data-extra-3.js';
 import { fullStackExtraCertifications } from '../data/certifications-fullstack-extra.js';
+import { professionalExtraCertifications } from '../data/certifications-professional-extra.js';
 
 const categoryOverrides = {
   '53XED77GVPRN': 'ai_ml',
   'office-professional-nf-computer': 'professional_credentials',
 };
 
-const merged = [...certifications, ...aiExtraCertifications, ...aiExtraCertifications2, ...dataExtraCertifications2, ...dataExtraCertifications3, ...fullStackExtraCertifications]
+const merged = [...certifications, ...aiExtraCertifications, ...aiExtraCertifications2, ...dataExtraCertifications2, ...dataExtraCertifications3, ...fullStackExtraCertifications, ...professionalExtraCertifications]
   .map((item) => ({
     ...item,
     category: categoryOverrides[item.credential_id] || categoryOverrides[item.id] || item.category,
