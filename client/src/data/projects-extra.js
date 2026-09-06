@@ -34,6 +34,31 @@ export const extraProjects = [
     status: 'published',
   },
   {
+    id: 'sky-watch-air-quality-forecasting',
+    title: 'Sky-Watch',
+    slug: 'sky-watch-air-quality-forecasting',
+    category: 'ai_ml',
+    subtitle: 'Air Quality Forecasting with Machine Learning',
+    description_id:
+      'Proyek tim untuk pemantauan dan prediksi kualitas udara yang dikembangkan pada MBKM Coding Camp. Saya berkontribusi pada learning path Machine Learning dalam pengembangan solusi prediksi kualitas udara dan integrasinya ke aplikasi.',
+    description_en:
+      'A team project for air-quality monitoring and forecasting developed during MBKM Coding Camp. I contributed through the Machine Learning learning path to the forecasting solution and its application integration.',
+    thumbnail_url: '',
+    tech_stack: ['Python', 'Machine Learning', 'Time Series', 'FastAPI', 'Data Processing', 'Web Integration'],
+    highlights: [
+      'Air-quality monitoring and forecasting use case',
+      'Team-based machine learning development',
+      'Machine learning contribution documented in the project repository',
+      'Front-end/back-end and machine learning components in one project',
+      'Developed as part of MBKM Coding Camp',
+    ],
+    github_url: 'https://github.com/RezaHarahap18/Sky-Watch',
+    demo_url: '',
+    featured: false,
+    display_order: 2.5,
+    status: 'published',
+  },
+  {
     id: 'student-dropout-analytics-prediction',
     title: 'Student Dropout Analytics & Prediction',
     slug: 'student-dropout-analytics-prediction',
