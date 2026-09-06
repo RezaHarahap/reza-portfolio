@@ -129,7 +129,7 @@ export const extraProjects = [
     ],
     github_url: 'https://github.com/RezaHarahap/forum-api-cicd-security',
     demo_url: '',
-    featured: true,
+    featured: false,
     display_order: 1.75,
     status: 'published',
   },
