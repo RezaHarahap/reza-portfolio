@@ -1,11 +1,12 @@
 import { certifications } from '../data/certifications.js';
 import { aiExtraCertifications } from '../data/certifications-ai-extra.js';
+import { aiExtraCertifications2 } from '../data/certifications-ai-extra-2.js';
 
 const categoryOverrides = {
   '53XED77GVPRN': 'ai_ml',
 };
 
-const merged = [...certifications, ...aiExtraCertifications]
+const merged = [...certifications, ...aiExtraCertifications, ...aiExtraCertifications2]
   .map((item) => ({
     ...item,
     category: categoryOverrides[item.credential_id] || item.category,
