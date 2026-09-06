@@ -29,6 +29,14 @@ const categoryLinks = [
   },
 ];
 
+const professionalCategory = {
+  index: '04',
+  name: 'Professional Credentials',
+  cta_id: 'Sertifikasi Profesional & Pendukung',
+  cta_en: 'Professional & Supporting Credentials',
+  url: '/certifications/professional-credentials',
+};
+
 export default function Certifications() {
   const [featured, setFeatured] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -79,56 +87,28 @@ export default function Certifications() {
         <>
           <div className="cert-subhead">
             <div>
-              <span className="eyebrow">
-                FEATURED CERTIFICATIONS
-              </span>
-
-              <h3>
-                {id ? 'Sertifikat Utama' : 'Featured Credentials'}
-              </h3>
+              <span className="eyebrow">FEATURED CERTIFICATIONS</span>
+              <h3>{id ? 'Sertifikat Utama' : 'Featured Credentials'}</h3>
             </div>
 
-            <span className="cert-count">
-              06 SELECTED
-            </span>
+            <span className="cert-count">06 SELECTED</span>
           </div>
 
           <div className="cert-grid">
             {featured.map((item) => (
-              <CertificationCard
-                key={item.id}
-                item={item}
-              />
+              <CertificationCard key={item.id} item={item} />
             ))}
           </div>
 
-          {/* CERTIFICATION CATEGORY NAVIGATION */}
-          <div
-            className="cert-category-nav"
-            aria-label="Certification categories"
-          >
+          <div className="cert-category-nav" aria-label="Certification categories">
             {categoryLinks.map((item) => (
-              <Link
-                className="cert-category-card"
-                key={item.url}
-                to={item.url}
-              >
+              <Link className="cert-category-card" key={item.url} to={item.url}>
                 <div className="cert-category-topline">
-                  <span className="cert-category-index">
-                    {item.index}
-                  </span>
-
-                  <span
-                    className="cert-category-arrow"
-                    aria-hidden="true"
-                  >
-                    ↗
-                  </span>
+                  <span className="cert-category-index">{item.index}</span>
+                  <span className="cert-category-arrow" aria-hidden="true">↗</span>
                 </div>
 
-                <strong>
-                  {item.name}
-                </strong>
+                <strong>{item.name}</strong>
 
                 <span className="cert-category-cta">
                   {id ? item.cta_id : item.cta_en}
@@ -136,6 +116,26 @@ export default function Certifications() {
                 </span>
               </Link>
             ))}
+          </div>
+
+          <div className="cert-category-nav" aria-label="Professional credentials">
+            <Link
+              className="cert-category-card"
+              to={professionalCategory.url}
+              style={{ gridColumn: '1 / -1', minHeight: '96px' }}
+            >
+              <div className="cert-category-topline">
+                <span className="cert-category-index">{professionalCategory.index}</span>
+                <span className="cert-category-arrow" aria-hidden="true">↗</span>
+              </div>
+
+              <strong>{professionalCategory.name}</strong>
+
+              <span className="cert-category-cta">
+                {id ? professionalCategory.cta_id : professionalCategory.cta_en}
+                <span aria-hidden="true"> →</span>
+              </span>
+            </Link>
           </div>
         </>
       )}
