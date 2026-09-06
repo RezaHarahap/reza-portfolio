@@ -7,12 +7,13 @@ import { fullStackExtraCertifications } from '../data/certifications-fullstack-e
 
 const categoryOverrides = {
   '53XED77GVPRN': 'ai_ml',
+  'office-professional-nf-computer': 'professional_credentials',
 };
 
 const merged = [...certifications, ...aiExtraCertifications, ...aiExtraCertifications2, ...dataExtraCertifications2, ...dataExtraCertifications3, ...fullStackExtraCertifications]
   .map((item) => ({
     ...item,
-    category: categoryOverrides[item.credential_id] || item.category,
+    category: categoryOverrides[item.credential_id] || categoryOverrides[item.id] || item.category,
   }))
   .filter((item, index, items) => {
     const key = item.credential_id || item.id;
