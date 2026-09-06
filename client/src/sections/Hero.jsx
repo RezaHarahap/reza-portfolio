@@ -60,7 +60,7 @@ export default function Hero() {
             <span>Certifications</span>
           </div>
           <div>
-            <strong>10+</strong>
+            <strong>20+</strong>
             <span>Projects</span>
           </div>
           <div>
