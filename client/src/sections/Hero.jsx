@@ -45,7 +45,7 @@ export default function Hero() {
         <div className="hero-photo-wrap">
           <img
             className="hero-photo"
-            src="/images/profile-reza-medium.jpg"
+            src="/images/profile-reza-medium.jpg?v=20260906-2"
             alt="Muhammad Reza Pahlevi Harahap"
           />
         </div>
