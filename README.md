@@ -1,38 +1,56 @@
 # Muhammad Reza Pahlevi Harahap — Portfolio
 
-Personal portfolio website built to showcase my work, experience, education, certifications, and technical focus across **AI & Machine Learning**, **Data Science & Analytics**, and **Full-Stack Development**.
+Personal portfolio website of **Muhammad Reza Pahlevi Harahap**, an Information Systems graduate focused on **Data Analytics, Data Science, and AI & Machine Learning**.
 
-## About
+The portfolio presents selected projects, experience, education, certifications, and technical capabilities, with software and backend development positioned as supporting skills for building and deploying practical solutions.
 
-I am a fresh graduate in Information Systems with a strong interest in building practical technology solutions using machine learning, data analytics, and modern web development.
+## Live Portfolio
 
-This portfolio highlights selected projects, certifications, professional experience, organizational experience, and the tools I use across those three focus areas.
+**Website:** https://reza-portfolio-nine.vercel.app/
+
+## About Me
+
+I am an Information Systems graduate interested in how data, AI, and software can be used to solve real-world problems. I enjoy understanding problems, working with data, building solutions, and turning them into practical applications.
+
+My experience includes data analytics, machine learning, deep learning, dashboard development, predictive modeling, computer vision, time-series forecasting, MLOps, software development, and Quality Assurance through academic projects, intensive learning programs, and collaborative work.
+
+I completed intensive learning programs through **Bangkit Academy** and **Coding Camp powered by DBS Foundation**, where I gained hands-on experience in machine learning, deep learning, model development, evaluation, and multidisciplinary project collaboration.
 
 ## Core Focus
 
-### AI & Machine Learning
+### 1. Data Analytics & Data Science
 - Python
-- TensorFlow
-- scikit-learn
-- Pandas
-- NumPy
-- Machine Learning
-- Deep Learning
-- MLOps
-- TFX
-
-### Data Science & Analytics
 - SQL
 - Microsoft Excel
 - Power BI
 - Tableau
 - Looker Studio
-- Data Cleaning
-- Data Validation
+- Pandas
+- NumPy
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis
 - Data Visualization
-- Predictive Analysis
+- Dashboard Development
+- Predictive Modeling
+- Business Insight
 
-### Full-Stack Development
+### 2. AI & Machine Learning
+- Machine Learning
+- Deep Learning
+- Computer Vision
+- Time-Series Forecasting
+- Recommendation Systems
+- TensorFlow
+- Keras
+- scikit-learn
+- TFX
+- MLflow
+- FastAPI
+- Model Evaluation
+- Model Deployment
+- MLOps
+
+### 3. Software & Backend Development — Supporting Skills
 - JavaScript
 - React.js
 - Node.js
@@ -41,7 +59,7 @@ This portfolio highlights selected projects, certifications, professional experi
 - CSS
 - Git
 - GitHub
-- Automation Testing
+- Testing
 - CI/CD
 
 ## Portfolio Sections
@@ -56,28 +74,23 @@ This portfolio highlights selected projects, certifications, professional experi
 - Certifications
 - Contact
 
-## Featured Project Categories
+## Project Areas
 
-The portfolio groups projects into three main categories:
+The portfolio includes projects across:
 
+- Data Analytics & Visualization
+- Data Science & Predictive Modeling
 - AI & Machine Learning
-- Data Science & Analytics
-- Full-Stack Development
+- Deep Learning & Computer Vision
+- Time-Series Forecasting
+- Machine Learning Operations (MLOps)
+- Software & Backend Development
 
-Each category contains selected work with project descriptions, technology stacks, key highlights, and repository/demo links where available.
-
-## Featured Certifications
-
-Selected certifications include credentials in:
-
-- Machine Learning & MLOps
-- Data Analysis & Analytics
-- React Development
-- Node.js Development
-
-Additional certifications are available through dedicated certification category pages.
+Each project includes its objective, technology stack, implementation highlights, and repository or demo link where available.
 
 ## Tech Stack
+
+The portfolio website itself is built using:
 
 - React
 - Vite
@@ -91,8 +104,8 @@ Additional certifications are available through dedicated certification category
 - Responsive portfolio interface
 - Light and dark mode
 - Indonesian and English language support
-- Project category pages
-- Certification category pages
+- Dedicated project category pages
+- Dedicated certification category pages
 - Certificate preview and verification links
 - Responsive layout for desktop, tablet, and mobile
 
@@ -119,9 +132,7 @@ npm run build
 
 ## Deployment
 
-The portfolio is prepared for deployment using **Vercel**.
-
-Deployment flow:
+This portfolio is deployed on **Vercel** and connected to the GitHub repository for continuous deployment.
 
 ```text
 Local Development
@@ -133,16 +144,21 @@ Vercel
 Production Portfolio
 ```
 
-Future updates to projects, certifications, or content can be pushed to GitHub and automatically redeployed by Vercel once the repository is connected.
+## Links
 
-## Repository
-
-GitHub: https://github.com/RezaHarahap/reza-portfolio
+- **Live Portfolio:** https://reza-portfolio-nine.vercel.app/
+- **GitHub Repository:** https://github.com/RezaHarahap/reza-portfolio
+- **GitHub Profile:** https://github.com/RezaHarahap
+- **LinkedIn:** https://www.linkedin.com/in/reza-harahap/
+- **Email:** rezaharahap180404@gmail.com
 
 ## Contact
 
+I am open to opportunities and collaboration related to **Data Analytics, Data Science, Business Intelligence, and AI/Machine Learning**.
+
 - LinkedIn: https://www.linkedin.com/in/reza-harahap/
-- GitHub: https://github.com/RezaHarahap
+- Email: rezaharahap180404@gmail.com
+- Portfolio: https://reza-portfolio-nine.vercel.app/
 
 ---
 
