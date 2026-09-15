@@ -3,6 +3,19 @@ import { usePreferences } from '../hooks/usePreferences.jsx';
 
 const idItems = [
   [
+    'Agu 2026 – Sep 2026',
+    'Virtual Assistant — Project-Based Internship',
+    'Rakamin Academy',
+    [
+      'Meraih nilai rata-rata 100/100 dengan predikat Excellent Student dalam program Project-Based Internship selama 4 minggu.',
+      'Mengolah dan merangkum data operasional menggunakan Microsoft Excel, termasuk fungsi statistik, filter, sorting, dan Pivot Table.',
+      'Menganalisis data customer support untuk mengidentifikasi tren, permasalahan berulang, kebutuhan pelanggan, dan menghasilkan insight bisnis yang dapat ditindaklanjuti.',
+      'Menerapkan business acumen dan project management untuk mengidentifikasi masalah operasional, menyusun rekomendasi, serta mendukung koordinasi proyek.',
+      'Menyelesaikan proyek praktis yang mencakup customer support reporting, bookkeeping, analisis biaya, product knowledge, customer engagement, dan digital copywriting.',
+    ],
+    '/certificates/rakamin-virtual-assistant-certificate.html',
+  ],
+  [
     'Feb 2026 – Mar 2026',
     'Divisi Partnership — Relawan Ramadhan',
     'LAZ Zakat Sukses',
@@ -63,6 +76,19 @@ const idItems = [
 ];
 
 const enItems = [
+  [
+    'Aug 2026 – Sep 2026',
+    'Virtual Assistant — Project-Based Internship',
+    'Rakamin Academy',
+    [
+      'Achieved an average score of 100/100 with an Excellent Student distinction in a four-week Project-Based Internship.',
+      'Processed and summarized operational data using Microsoft Excel, including statistical functions, filters, sorting, and Pivot Tables.',
+      'Analyzed customer support data to identify trends, recurring issues, customer needs, and actionable business insights.',
+      'Applied business acumen and project management to identify operational problems, formulate recommendations, and support project coordination.',
+      'Completed practical projects covering customer support reporting, bookkeeping, cost analysis, product knowledge, customer engagement, and digital copywriting.',
+    ],
+    '/certificates/rakamin-virtual-assistant-certificate.html',
+  ],
   [
     'Feb 2026 – Mar 2026',
     'Partnership Division — Ramadan Volunteer',
@@ -129,45 +155,36 @@ export default function Experience() {
 
   return (
     <section id="experience" className="section">
-      <SectionHeader
-        index="04 /"
-        title={t.sections.experience}
-      />
+      <SectionHeader index="04 /" title={t.sections.experience} />
 
       <div className="timeline">
-        {items.map(
-          ([period, role, place, bullets, certificateUrl]) => (
-            <article key={`${role}-${period}`}>
-              <div className="time">{period}</div>
+        {items.map(([period, role, place, bullets, certificateUrl]) => (
+          <article key={`${role}-${period}`}>
+            <div className="time">{period}</div>
 
-              <div>
-                <h3>{role}</h3>
+            <div>
+              <h3>{role}</h3>
+              <p className="muted">{place}</p>
 
-                <p className="muted">{place}</p>
+              <ul className="clean-list">
+                {bullets.map((bullet) => (
+                  <li key={bullet}>{bullet}</li>
+                ))}
+              </ul>
 
-                <ul className="clean-list">
-                  {bullets.map((bullet) => (
-                    <li key={bullet}>{bullet}</li>
-                  ))}
-                </ul>
-
-                {certificateUrl &&
-                  !certificateUrl.startsWith('LINK_') && (
-                    <a
-                      href={certificateUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="experience-certificate"
-                    >
-                      {language === 'id'
-                        ? 'Sertifikat ↗'
-                        : 'Certificate ↗'}
-                    </a>
-                  )}
-              </div>
-            </article>
-          )
-        )}
+              {certificateUrl && !certificateUrl.startsWith('LINK_') && (
+                <a
+                  href={certificateUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="experience-certificate"
+                >
+                  {language === 'id' ? 'Sertifikat ↗' : 'Certificate ↗'}
+                </a>
+              )}
+            </div>
+          </article>
+        ))}
       </div>
     </section>
   );
