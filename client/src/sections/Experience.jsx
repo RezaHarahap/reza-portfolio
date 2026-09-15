@@ -16,17 +16,6 @@ const idItems = [
     '/certificates/rakamin-virtual-assistant-certificate.html',
   ],
   [
-    'Feb 2026 – Mar 2026',
-    'Divisi Partnership — Relawan Ramadhan',
-    'LAZ Zakat Sukses',
-    [
-      'Melakukan canvassing dan pendekatan kerja sama kepada 40+ masjid.',
-      'Mencapai hasil fundraising sekitar 170% dari target yang telah ditetapkan melalui pendekatan partnership dan koordinasi program.',
-      'Menjalin kerja sama dengan 5+ sekolah untuk mendukung pelaksanaan program fundraising.',
-    ],
-    'https://drive.google.com/file/d/1HZ6vhYBxulRdVieqTz9x5e916k6Dlosm/view?usp=drive_link',
-  ],
-  [
     'Sep 2024 – Jan 2025 · Feb 2026 – Jul 2026',
     'Asisten Dosen — Jaminan Kualitas Sistem Informasi',
     'STT Terpadu Nurul Fikri',
@@ -36,6 +25,17 @@ const idItems = [
       'Mendukung kelancaran proses pembelajaran melalui koordinasi kebutuhan akademik dan pendampingan mahasiswa.',
     ],
     'https://drive.google.com/file/d/1VgQc3_htkyL07CwiQ2u9taF-Im8Dma1n/view?usp=drive_link',
+  ],
+  [
+    'Feb 2026 – Mar 2026',
+    'Divisi Partnership — Relawan Ramadhan',
+    'LAZ Zakat Sukses',
+    [
+      'Melakukan canvassing dan pendekatan kerja sama kepada 40+ masjid.',
+      'Mencapai hasil fundraising sekitar 170% dari target yang telah ditetapkan melalui pendekatan partnership dan koordinasi program.',
+      'Menjalin kerja sama dengan 5+ sekolah untuk mendukung pelaksanaan program fundraising.',
+    ],
+    'https://drive.google.com/file/d/1HZ6vhYBxulRdVieqTz9x5e916k6Dlosm/view?usp=drive_link',
   ],
   [
     'Feb 2025 – Jul 2025',
@@ -90,17 +90,6 @@ const enItems = [
     '/certificates/rakamin-virtual-assistant-certificate.html',
   ],
   [
-    'Feb 2026 – Mar 2026',
-    'Partnership Division — Ramadan Volunteer',
-    'LAZ Zakat Sukses',
-    [
-      'Conducted canvassing and partnership outreach to 40+ mosques.',
-      'Achieved approximately 170% of the established fundraising target through partnership outreach and program coordination.',
-      'Built partnerships with 5+ schools to support fundraising programs.',
-    ],
-    'https://drive.google.com/file/d/1HZ6vhYBxulRdVieqTz9x5e916k6Dlosm/view?usp=drive_link',
-  ],
-  [
     'Sep 2024 – Jan 2025 · Feb 2026 – Jul 2026',
     'Teaching Assistant — Information Systems Quality Assurance',
     'STT Terpadu Nurul Fikri',
@@ -110,6 +99,17 @@ const enItems = [
       'Supported smooth learning activities through academic coordination and student assistance.',
     ],
     'https://drive.google.com/file/d/1VgQc3_htkyL07CwiQ2u9taF-Im8Dma1n/view?usp=drive_link',
+  ],
+  [
+    'Feb 2026 – Mar 2026',
+    'Partnership Division — Ramadan Volunteer',
+    'LAZ Zakat Sukses',
+    [
+      'Conducted canvassing and partnership outreach to 40+ mosques.',
+      'Achieved approximately 170% of the established fundraising target through partnership outreach and program coordination.',
+      'Built partnerships with 5+ schools to support fundraising programs.',
+    ],
+    'https://drive.google.com/file/d/1HZ6vhYBxulRdVieqTz9x5e916k6Dlosm/view?usp=drive_link',
   ],
   [
     'Feb 2025 – Jul 2025',
