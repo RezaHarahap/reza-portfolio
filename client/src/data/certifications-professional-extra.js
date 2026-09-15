@@ -1,5 +1,22 @@
 export const professionalExtraCertifications = [
   {
+    id: 'rakamin-virtual-assistant-project-based-internship',
+    title: 'Virtual Assistant — Project-Based Internship',
+    issuer: 'Rakamin Academy',
+    category: 'professional_credentials',
+    year: 2026,
+    issue_date: '2026-09-14',
+    credential_id: '328926IAPMGIR1292026',
+    certificate_url: '/certificates/rakamin-virtual-assistant-certificate.html',
+    verification_url: null,
+    skills: ['Microsoft Excel', 'Customer Support', 'Project Management', 'Bookkeeping', 'Business Analysis', 'Customer Engagement'],
+    score: '100/100 — Excellent Student',
+    featured: false,
+    professional: true,
+    display_order: 100,
+    status: 'published',
+  },
+  {
     id: 'belajar-dasar-git-github-dicoding',
     title: 'Belajar Dasar Git dengan GitHub',
     issuer: 'Dicoding Indonesia',
