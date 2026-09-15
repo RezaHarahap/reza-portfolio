@@ -14,12 +14,6 @@ const data = [
     skills: ['Data Cleaning & Validation','Exploratory Data Analysis','Data Visualization','Dashboard Development','Statistical Analysis','Predictive Modeling','Business Insight','Data Reporting'],
     tools: 'Python · SQL · Excel · Power BI · Tableau · Looker Studio · Pandas · NumPy',
   },
-  {
-    n: '03',
-    title: 'Full-Stack Development',
-    skills: ['Front-End Development','Back-End Development','REST API Development','Database Integration','Authentication & Authorization','Responsive Web Development','Web Testing'],
-    tools: 'HTML · CSS · JavaScript · React · Node.js · Python · PHP · Laravel · SQL · MySQL · Git · GitHub',
-  },
 ];
 
 export default function Expertise() {
@@ -31,8 +25,8 @@ export default function Expertise() {
         index="03 /"
         title={t.sections.expertise}
         description={id
-          ? 'Saya mengembangkan kemampuan teknis pada tiga bidang utama yang saling berkaitan: AI & Machine Learning, Data Science & Analytics, serta Full-Stack Development.'
-          : 'I develop technical capabilities across three connected areas: AI & Machine Learning, Data Science & Analytics, and Full-Stack Development.'}
+          ? 'Fokus keahlian utama saya berada pada AI & Machine Learning serta Data Science & Analytics.'
+          : 'My primary technical focus is AI & Machine Learning and Data Science & Analytics.'}
       />
       <div className="expertise-grid">
         {data.map(({ n, title, skills, tools }) => (
