@@ -60,37 +60,47 @@ export default function Projects() {
         }
       />
 
-      {loading && <p className="muted">{t.common.loading}</p>}
-      {error && (
-        <div className="error-box">
-          <p>{error}</p>
-          <button type="button" className="btn secondary" onClick={loadProjects}>
+      {error ? (
+        <div className="state">
+          {isIndonesian
+            ? 'Data project tidak dapat dimuat.'
+            : 'Unable to load project data.'}
+
+          <button onClick={loadProjects}>
             {t.common.retry}
           </button>
         </div>
-      )}
-
-      {!loading && !error && (
-        <div className="projects-by-category">
-          {Object.entries(categoryMeta).map(([category, meta]) => {
-            const categoryItems = items.filter((item) => item.category === category);
-            if (!categoryItems.length) return null;
+      ) : loading ? (
+        <div className="project-grid project-showcase-grid">
+          {[1, 2, 3].map((item) => (
+            <div className="skeleton" key={item} />
+          ))}
+        </div>
+      ) : items.length ? (
+        <div className="project-grid project-showcase-grid">
+          {items.map((project) => {
+            const meta = categoryMeta[project.category];
 
             return (
-              <section className="project-category" key={category}>
-                <div className="project-grid">
-                  {categoryItems.map((project) => (
-                    <ProjectCard key={project.id} project={project} />
-                  ))}
-                </div>
-                <div className="category-actions">
-                  <a className="btn secondary" href={meta.path}>
-                    {isIndonesian ? meta.idLabel : meta.enLabel}
-                  </a>
-                </div>
-              </section>
+              <ProjectCard
+                key={project.id}
+                project={project}
+                showcase
+                categoryPath={meta?.path}
+                categoryLinkLabel={
+                  meta
+                    ? isIndonesian
+                      ? meta.idLabel
+                      : meta.enLabel
+                    : ''
+                }
+              />
             );
           })}
+        </div>
+      ) : (
+        <div className="empty-panel">
+          {t.common.empty}
         </div>
       )}
     </section>
