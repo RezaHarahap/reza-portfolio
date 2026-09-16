@@ -63,7 +63,7 @@ export default function Certifications() {
   return (
     <section id="certifications" className="section">
       <SectionHeader
-        index="08 /"
+        index="07 /"
         title={t.sections.certifications}
         description={
           id
