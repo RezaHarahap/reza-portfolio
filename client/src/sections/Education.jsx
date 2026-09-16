@@ -7,7 +7,7 @@ export default function Education() {
 
   return (
     <section id="education" className="section">
-      <SectionHeader index="06 /" title={t.sections.education} />
+      <SectionHeader index="05 /" title={t.sections.education} />
       <div className="education">
         <div>
           <span className="eyebrow">{id ? 'September 2022 – Juli 2026' : 'September 2022 – July 2026'}</span>
