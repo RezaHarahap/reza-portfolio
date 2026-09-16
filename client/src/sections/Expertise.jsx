@@ -28,7 +28,7 @@ export default function Expertise() {
   return (
     <section id="expertise" className="section">
       <SectionHeader
-        index="03 /"
+        index="08 /"
         title={t.sections.expertise}
         description={id
           ? 'Saya mengembangkan kemampuan teknis pada tiga bidang utama yang saling berkaitan: AI & Machine Learning, Data Science & Analytics, serta Full-Stack Development.'
