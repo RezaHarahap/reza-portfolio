@@ -55,7 +55,7 @@ export default function Organization() {
 
   return (
     <section id="organization" className="section">
-      <SectionHeader index="05 /" title={t.sections.organization} />
+      <SectionHeader index="04 /" title={t.sections.organization} />
       <div className="org-grid">
         {items.map(([period, title, place, bullets]) => (
           <article key={title}>
